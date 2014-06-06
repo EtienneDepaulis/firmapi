@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = Firmapi::VERSION
   spec.authors       = ["Etienne Depaulis"]
   spec.email         = ["etienne.depaulis@gmail.com"]
-  spec.description   = %q{Firmapi is a ruby client for www.firmapi.com}
-  spec.summary       = %q{Firmapi is a ruby client for www.firmapi.com}
+  spec.description   = %q{Firmapi is a ruby client for www.firmapi.com JSON API}
+  spec.summary       = %q{Firmapi is a ruby client for www.firmapi.com JSON API}
   spec.homepage      = ""
   spec.license       = "MIT"
 
