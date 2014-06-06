@@ -1,6 +1,6 @@
 require 'bundler/setup'
 require 'webmock/rspec'
-require 'VCR'
+require 'vcr'
 
 require_relative '../lib/firmapi.rb'
 
