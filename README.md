@@ -1,4 +1,4 @@
-# Firmapi
+# Firmapi [![Code Climate](https://codeclimate.com/github/EtienneDepaulis/firmapi.png)](https://codeclimate.com/github/EtienneDepaulis/firmapi) 
 
 Firmapi is a ruby client for [Firmapi](https://firmapi.com/) JSON API.
 
