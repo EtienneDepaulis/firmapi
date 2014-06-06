@@ -1,7 +1,3 @@
-require 'virtus'
-require 'faraday'
-require 'faraday_middleware'
-
 module Firmapi
   class Company
   	include Virtus.model
@@ -23,12 +19,8 @@ module Firmapi
   	attribute :website, String
 
   	def self.find_by_siren!(siren)
-  		conn = Faraday.new(url: 'https://firmapi.com') do |faraday|
-  			faraday.response :json, content_type: /\bjson$/
-			  faraday.adapter  Faraday.default_adapter
-			end
 
-			response = conn.get '/api/v1/company', { siren: siren, api_key: Firmapi.configuration.api_key}
+      response = API.new.get '/company', { siren: siren }
 
 			if response.status == 200
 				json = response.body
