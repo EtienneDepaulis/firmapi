@@ -34,9 +34,22 @@ calling Firmapi.configure like so:
 
     company = Firmapi::Company.find_by_siren!(480470152)
     company.name # => "EVANGELINA"
-    
+
     Firmapi::Company.find_by_siren!("INVALID SIREN") # => Firmapi::Company::NoCompanyFound: 'No company was found with the siren 'INVALID SIREN'.'
 
+#### Using the postal_code
+
+    companies = Firmapi::Companies.where(postal_code: 69)
+    companies.results # => 103307
+    companies.number_of_pages # => 1033
+    companies.to_a # => [Company1, Company2, ...]
+
+More info on search parameters [here](https://firmapi.com/docs/call/search).
+
+You can also navigate using the `:next_page` method:
+
+    companies.next_page
+    companies.page = 2
 
 ## Contributing
 

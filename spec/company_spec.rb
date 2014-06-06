@@ -2,12 +2,6 @@ require 'spec_helper'
 
 describe Firmapi::Company do
 
-  before(:all) do
-    Firmapi.configure do |config|
-      config.api_key = "123456"
-    end
-  end
-
   describe ":find_by_siren!" do
 
     context 'with a valid siren' do
@@ -49,4 +43,5 @@ describe Firmapi::Company do
     end
 
   end
+
 end

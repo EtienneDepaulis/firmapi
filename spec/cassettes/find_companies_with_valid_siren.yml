@@ -1,0 +1,144 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://firmapi.com/api/v1/companies?api_key=secret_api_key&postal_code=69
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "U2VydmVy":
+      - !binary |-
+        bmdpbngvMS40LjEgKFVidW50dSk=
+      !binary "RGF0ZQ==":
+      - !binary |-
+        RnJpLCAwNiBKdW4gMjAxNCAxNTo1NToxMyBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOA==
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+      !binary "Q29ubmVjdGlvbg==":
+      - !binary |-
+        a2VlcC1hbGl2ZQ==
+      !binary "WC1GcmFtZS1PcHRpb25z":
+      - !binary |-
+        U0FNRU9SSUdJTg==
+      !binary "WC1Yc3MtUHJvdGVjdGlvbg==":
+      - !binary |-
+        MTsgbW9kZT1ibG9jaw==
+      !binary "WC1Db250ZW50LVR5cGUtT3B0aW9ucw==":
+      - !binary |-
+        bm9zbmlmZg==
+      !binary "RXRhZw==":
+      - !binary |-
+        ImY3MGU1ZGEyMzlmN2JjNGJkYTgzOTNiOWViMjE3N2U3Ig==
+      !binary "Q2FjaGUtQ29udHJvbA==":
+      - !binary |-
+        bWF4LWFnZT0wLCBwcml2YXRlLCBtdXN0LXJldmFsaWRhdGU=
+      !binary "U2V0LUNvb2tpZQ==":
+      - !binary |-
+        cmVxdWVzdF9tZXRob2Q9R0VUOyBwYXRoPS8=
+      !binary "WC1SZXF1ZXN0LUlk":
+      - !binary |-
+        Njg0NzVkZDEtNTlkOS00MzA2LTkzYzItMzUzMGI3MGIyZGJi
+      !binary "WC1SdW50aW1l":
+      - !binary |-
+        MC4xNTYxMzE=
+    body:
+      encoding: UTF-8
+      string: ! '{"input":{"postal_code":"69","page":1},"result":{"search":{"results":103307,"size":100,"page":1,"number_of_pages":1033},"list":[{"siren":"527810279","name":"C.M.","postal_code":"69960","naf_code":"5610A"},{"siren":"522171016","name":"515
+        Store France","postal_code":"69009","naf_code":"7311Z"},{"siren":"528465990","name":"U
+        Link","postal_code":"69410","naf_code":"6110Z"},{"siren":"454007725","name":"U
+        Lan Technologies","postal_code":"69004","naf_code":"9511Z"},{"siren":"520276031","name":"Allo
+        Syndic","postal_code":"69428","naf_code":"6832A"},{"siren":"504008772","name":"Chagny
+        Pere Et Fils S A R L","postal_code":"69005","naf_code":"4331Z"},{"siren":"491008629","name":"La
+        Terrasse Des Quatre Saisons","postal_code":"69460","naf_code":"5610A"},{"siren":"409184017","name":"Entreprise
+        Bost Pere Et Fils","postal_code":"69170","naf_code":"4312A"},{"siren":"409196011","name":"Studio
+        Anatole Editions","postal_code":"69001","naf_code":"5920Z"},{"siren":"522213768","name":"Pgnf
+        Plomberie","postal_code":"69360","naf_code":"4322A"},{"siren":"509822425","name":"Styl
+        MaÎtrise D''oeuvre","postal_code":"69007","naf_code":"7112B"},{"siren":"521539908","name":"Transports
+        Gte","postal_code":"69460","naf_code":"4941B"},{"siren":"452278039","name":"Sarl
+        Ebol","postal_code":"69670","naf_code":"8130Z"},{"siren":"513496174","name":"Cbs
+        Prestige","postal_code":"69680","naf_code":"4743Z"},{"siren":"401442744","name":"Le
+        Bois Debout","postal_code":"69005","naf_code":"4779Z"},{"siren":"531705218","name":"Le
+        Sommelier De La Tour","postal_code":"69890","naf_code":"4725Z"},{"siren":"501938740","name":"Sg
+        Expertise","postal_code":"69220","naf_code":"6920Z"},{"siren":"514166982","name":"LA
+        BOUTIQUE D''INAE","postal_code":"69400","naf_code":"4751Z"},{"siren":"400666988","name":"Etiq''b","postal_code":"69730","naf_code":"7112B"},{"siren":"527663629","name":"Le
+        Rousseau","postal_code":"69350","naf_code":"5610A"},{"siren":"513070128","name":"Herboristerie
+        De Lyon   La Croix Rousse","postal_code":"69004","naf_code":"4729Z"},{"siren":"384267977","name":"Verot
+        Girodet","postal_code":"69530","naf_code":"4619B"},{"siren":"523210979","name":"AU
+        TOOLEYS","postal_code":"69005","naf_code":"5610A"},{"siren":"324971738","name":"Ceramdent","postal_code":"69003","naf_code":"3250A"},{"siren":"420400350","name":"Century
+        21 Sat","postal_code":"69008","naf_code":"6831Z"},{"siren":"538845884","name":"Mdm
+        Developpement","postal_code":"69004","naf_code":"6420Z"},{"siren":"478967151","name":"Persona
+        Grata","postal_code":"69006","naf_code":"7311Z"},{"siren":"480314988","name":"Probati","postal_code":"69440","naf_code":"4334Z"},{"siren":"450896774","name":"Societe
+        Nouvelle Prima Froid","postal_code":"69360","naf_code":"3320B"},{"siren":"522295062","name":"Le
+        San Marco","postal_code":"69003","naf_code":"5610A"},{"siren":"527691679","name":"Fill
+        Up Media","postal_code":"69100","naf_code":"7312Z"},{"siren":"517612099","name":"Orcalam","postal_code":"69440","naf_code":"6420Z"},{"siren":"523573780","name":"Da
+        Restos","postal_code":"69001","naf_code":"6420Z"},{"siren":"508018371","name":"Cornaton
+        Sas","postal_code":"69220","naf_code":"6420Z"},{"siren":"395192800","name":"Fic
+        Sem","postal_code":"69210","naf_code":"4669B"},{"siren":"488862426","name":"Mgc
+        Services","postal_code":"69290","naf_code":"6420Z"},{"siren":"538698812","name":"Participation
+        Minodier","postal_code":"69490","naf_code":"6420Z"},{"siren":"438550568","name":"Sarl
+        Niglo Clean","postal_code":"69670","naf_code":"8121Z"},{"siren":"450357876","name":"L''ARDOISE
+        GOURMANDE","postal_code":"69170","naf_code":"5610A"},{"siren":"499151132","name":"Eurl
+        Leonet Electromenager","postal_code":"69610","naf_code":"9522Z"},{"siren":"504382466","name":"First
+        Price Immobilier","postal_code":"69007","naf_code":"6831Z"},{"siren":"725480230","name":"Chatelard
+        Gestion","postal_code":"69170","naf_code":"1320Z"},{"siren":"521820654","name":"Pizzalina","postal_code":"69008","naf_code":"5610A"},{"siren":"511235426","name":"NONNA
+        CARMELA","postal_code":"69100","naf_code":"5610A"},{"siren":"503381550","name":"Confortech","postal_code":"69220","naf_code":"8559A"},{"siren":"487464372","name":"Mpl
+        Vision","postal_code":"69110","naf_code":"4649Z"},{"siren":"337550677","name":"Sforza
+        Giuseppe Coiffeur Createur","postal_code":"69100","naf_code":"9602A"},{"siren":"488063108","name":"Fashion
+        Minut''professional","postal_code":"69120","naf_code":"9602A"},{"siren":"444908982","name":"Oretal","postal_code":"69100","naf_code":"6420Z"},{"siren":"517495396","name":"RTTP","postal_code":"69300","naf_code":"4312A"},{"siren":"750556367","name":"Services
+        Lyon Demenagements","postal_code":"69330","naf_code":"4942Z"},{"siren":"489567297","name":"K.R.S.
+        Primeurs","postal_code":"69700","naf_code":"4781Z"},{"siren":"407663624","name":"Bolpato
+        Meraud","postal_code":"69600","naf_code":"4399C"},{"siren":"500308986","name":"Incitif
+        Diffusion","postal_code":"69250","naf_code":"9602A"},{"siren":"480297431","name":"DIONYSOS","postal_code":"69006","naf_code":"5610A"},{"siren":"450860143","name":"ESTEV''
+        KAPLAN","postal_code":"69007","naf_code":"9602A"},{"siren":"351795737","name":"Snc
+        Lavoisier","postal_code":"69006","naf_code":"6820A"},{"siren":"441763133","name":"Art''cad","postal_code":"69140","naf_code":"4649Z"},{"siren":"518800461","name":"Efel","postal_code":"69428","naf_code":"4619B"},{"siren":"751072919","name":"Jmp
+        Consulting","postal_code":"69120","naf_code":"4669C"},{"siren":"492543533","name":"Nang
+        Chop","postal_code":"69100","naf_code":"4711B"},{"siren":"453103731","name":"Rcte","postal_code":"69230","naf_code":"4321A"},{"siren":"404059701","name":"Ardom","postal_code":"69150","naf_code":"3320D"},{"siren":"389908831","name":"Maison
+        Tabbakh","postal_code":"69170","naf_code":"4721Z"},{"siren":"484613880","name":"La
+        Mie De Grigny","postal_code":"69520","naf_code":"1071B"},{"siren":"500034384","name":"Belle
+        Etoile Developpement","postal_code":"69370","naf_code":"6832B"},{"siren":"533820197","name":"Riso
+        Amaro","postal_code":"69006","naf_code":"5610A"},{"siren":"527813208","name":"A.S.A.P.","postal_code":"69007","naf_code":"4941A"},{"siren":"517734596","name":"Jacques
+        Chalvin Consultant","postal_code":"69570","naf_code":"6420Z"},{"siren":"481728202","name":"Consulting
+        Sport","postal_code":"69530","naf_code":"9319Z"},{"siren":"424233484","name":"Sofial
+        Rhone Alpes","postal_code":"69290","naf_code":"6920Z"},{"siren":"508539525","name":"Alpha
+        8 Ingenierie","postal_code":"69740","naf_code":"7112B"},{"siren":"482928108","name":"Ambulance
+        De Gerland","postal_code":"69007","naf_code":"8690A"},{"siren":"490932381","name":"Calvy","postal_code":"69130","naf_code":"4643Z"},{"siren":"504197286","name":"Ap[Hi]","postal_code":"69002","naf_code":"7111Z"},{"siren":"523048296","name":"Apse","postal_code":"69600","naf_code":"4322A"},{"siren":"523934784","name":"Carrosserie
+        Martorana","postal_code":"69700","naf_code":"4520A"},{"siren":"499407542","name":"Abconsole","postal_code":"69003","naf_code":"4741Z"},{"siren":"450647722","name":"Cafe
+        Du Commerce","postal_code":"69003","naf_code":"5610A"},{"siren":"448166439","name":"Look
+        Immo","postal_code":"69008","naf_code":"7120B"},{"siren":"488093048","name":"Alarme
+        Technique Securite","postal_code":"69100","naf_code":"4321A"},{"siren":"491531265","name":"Flatot
+        Christophe Maconnerie","postal_code":"69220","naf_code":"4399C"},{"siren":"503779688","name":"Optima
+        Classe 6","postal_code":"69400","naf_code":"7022Z"},{"siren":"520954462","name":"Ag
+        Buro","postal_code":"69410","naf_code":"4799B"},{"siren":"530294826","name":"Caffé
+        Roma","postal_code":"69006","naf_code":"1082Z"},{"siren":"343938452","name":"Sarl
+        Neri","postal_code":"69150","naf_code":"9601A"},{"siren":"494156391","name":"Rebelle
+        Te''line","postal_code":"69008","naf_code":"4774Z"},{"siren":"305800013","name":"Ets
+        Contamin","postal_code":"69150","naf_code":"7010Z"},{"siren":"521344978","name":"M.A.L.T.","postal_code":"69290","naf_code":"6420Z"},{"siren":"502910276","name":"Pb
+        Invest","postal_code":"69700","naf_code":"6420Z"},{"siren":"421160656","name":"Island
+        Consulting \u0026 Investment","postal_code":"69630","naf_code":"6420Z"},{"siren":"493399968","name":"R.L.F.","postal_code":"69700","naf_code":"6420Z"},{"siren":"538813072","name":"Tremys","postal_code":"69004","naf_code":"6420Z"},{"siren":"318308699","name":"Societe
+        Commerciale Des Cassieres   S.C.D.C.","postal_code":"69320","naf_code":"6420Z"},{"siren":"453123887","name":"Mc2
+        R","postal_code":"69970","naf_code":"4520A"},{"siren":"522202043","name":"I
+        Care","postal_code":"69270","naf_code":"7010Z"},{"siren":"492417589","name":"La
+        Gamme Beaujolaise","postal_code":"69460","naf_code":"4634Z"},{"siren":"521813725","name":"C
+        S A Centre Service Automobile","postal_code":"69380","naf_code":"4520A"},{"siren":"490533221","name":"A.M
+        Thermique","postal_code":"69440","naf_code":"4321A"},{"siren":"532363728","name":"Services
+        Sc Pronet","postal_code":"69960","naf_code":"8121Z"}]}}'
+    http_version:
+  recorded_at: Fri, 06 Jun 2014 15:55:14 GMT
+recorded_with: VCR 2.9.2

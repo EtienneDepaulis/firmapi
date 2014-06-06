@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://firmapi.com/api/v1/company?api_key=123456&siren=480470152
+    uri: https://firmapi.com/api/v1/company?api_key=secret_api_key&siren=480470152
     body:
       encoding: US-ASCII
       string: ''

@@ -8,6 +8,7 @@ module Firmapi
 
 	require 'firmapi/api'
   require 'firmapi/configuration'
+  require 'firmapi/companies'
   require 'firmapi/company'
 
 end
