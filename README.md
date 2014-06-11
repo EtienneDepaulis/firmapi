@@ -1,5 +1,11 @@
 # Firmapi
-[![Code Climate](https://codeclimate.com/github/EtienneDepaulis/firmapi.png)](https://codeclimate.com/github/EtienneDepaulis/firmapi) [![CircleCI](https://circleci.com/gh/EtienneDepaulis/firmapi.png)](https://circleci.com/gh/etiennedepaulis/firmapi)
+
+[![Gem Version](https://badge.fury.io/rb/firmapi.svg)](http://badge.fury.io/rb/firmapi) [![CI Build Status](https://secure.travis-ci.org/EtienneDepaulis/firmapi.png?branch=master)][travis] [![Code Climate](https://codeclimate.com/github/EtienneDepaulis/firmapi.png)][codeclimate] [![Coverage Status](https://coveralls.io/repos/EtienneDepaulis/firmapi/badge.png?branch=master)][coveralls]
+
+[rubygems]: http://rubygems.org/gems/firmapi
+[travis]: http://travis-ci.org/EtienneDepaulis/firmapi
+[codeclimate]: https://codeclimate.com/github/EtienneDepaulis/firmapi
+[coveralls]: https://coveralls.io/r/EtienneDepaulis/firmapi?branch=master
 
 Firmapi is a ruby client for [Firmapi](https://firmapi.com/) JSON API.
 
