@@ -12,10 +12,10 @@ describe Firmapi::Company do
 
     subject(:companies) { @companies }
 
-    it { expect(subject.results).to eq 103307 }
-    it { expect(subject.size).to eq 100 }
-    it { expect(subject.page).to eq 1 }
-    it { expect(subject.number_of_pages).to eq 1033 }
+    it { expect(companies.results).to eq 103307 }
+    it { expect(companies.size).to eq 100 }
+    it { expect(companies.page).to eq 1 }
+    it { expect(companies.number_of_pages).to eq 1033 }
 
     context 'list' do
 
@@ -23,10 +23,10 @@ describe Firmapi::Company do
 
       it { is_expected.to be_a Firmapi::Company }
 
-      it { expect(subject.name).to eq("C.M.") }
-      it { expect(subject.siren).to eq("527810279") }
-      it { expect(subject.nic).to be_nil }
-      it { expect(subject.commercial_name).to be_nil }
+      it { expect(company.name).to eq("C.M.") }
+      it { expect(company.siren).to eq("527810279") }
+      it { expect(company.nic).to be_nil }
+      it { expect(company.commercial_name).to be_nil }
 
     end
 
@@ -40,7 +40,7 @@ describe Firmapi::Company do
 
       subject(:companies) { @companies }
 
-      it { expect(subject.page).to eq 2 }
+      it { expect(companies.page).to eq 2 }
 
     end
 

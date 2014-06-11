@@ -14,21 +14,35 @@ describe Firmapi::Company do
 
       subject(:company) { @company }
 
-      it { expect(subject.name).to eq("Norauto France") }
-      it { expect(subject.siren).to eq("480470152") }
-      it { expect(subject.nic).to eq("00012") }
-      it { expect(subject.commercial_name).to be_nil }
-      it { expect(subject.official_name).to eq("NORAUTO FRANCE") }
-      it { expect(subject.naf_code).to eq("4532Z") }
-      it { expect(subject.legal_form).to eq("SAS") }
-      it { expect(subject.address).to eq("511 589 R Des Seringats") }
-      it { expect(subject.postal_code).to eq("59262") }
-      it { expect(subject.city).to eq("Sainghin En Melantois") }
-      it { expect(subject.vat_number).to eq("FR71480470152") }
-      it { expect(subject.number_of_establishments).to eq(230) }
-      it { expect(subject.registration_date).to eq(Date.new(2005, 1, 20)) }
-      it { expect(subject.cessation_date).to be_nil }
-      it { expect(subject.website).to eq("http://centres.norauto.fr/110-norauto-leers?utm_source=google\u0026utm_medium=places\u0026utm_campaign=Norauto_20121219JC") }
+      it { expect(company.name).to eq("Norauto France") }
+      it { expect(company.siren).to eq("480470152") }
+      it { expect(company.nic).to eq("00012") }
+      it { expect(company.commercial_name).to be_nil }
+      it { expect(company.official_name).to eq("NORAUTO FRANCE") }
+      it { expect(company.naf_code).to eq("4532Z") }
+      it { expect(company.legal_form).to eq("SAS") }
+      it { expect(company.address).to eq("511 589 R Des Seringats") }
+      it { expect(company.postal_code).to eq("59262") }
+      it { expect(company.city).to eq("Sainghin En Melantois") }
+      it { expect(company.vat_number).to eq("FR71480470152") }
+      it { expect(company.number_of_establishments).to eq(230) }
+      it { expect(company.registration_date).to eq(Date.new(2005, 1, 20)) }
+      it { expect(company.cessation_date).to be_nil }
+      it { expect(company.website).to eq("http://centres.norauto.fr/110-norauto-leers?utm_source=google\u0026utm_medium=places\u0026utm_campaign=Norauto_20121219JC") }
+
+      context 'financial_activity' do
+
+        subject(:first_financial_activity) { company.financial_activity.first }
+
+        it { expect(company.financial_activity.size).to eq(4) }
+
+        it { expect(first_financial_activity.publication_year).to eq(2012) }
+        it { expect(first_financial_activity.turnover).to be_nil }
+        it { expect(first_financial_activity.income).to be_nil }
+        it { expect(first_financial_activity.workforce_count).to be_nil }
+        it { expect(first_financial_activity.publication_date).to eq(Date.new(2012, 9, 29)) }
+
+      end
 
     end
 

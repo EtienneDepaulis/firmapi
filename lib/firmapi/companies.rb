@@ -38,7 +38,7 @@ module Firmapi
 				companies = self.new(json["result"]["search"], params)
 
         json["result"]["list"].each do |company_info|
-          companies.add_company Firmapi::Company.new company_info
+          companies.add_company Company.new(company_info)
         end
 
         companies
