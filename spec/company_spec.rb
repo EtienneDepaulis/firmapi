@@ -28,7 +28,9 @@ describe Firmapi::Company do
       it { expect(company.number_of_establishments).to eq(230) }
       it { expect(company.registration_date).to eq(Date.new(2005, 1, 20)) }
       it { expect(company.cessation_date).to be_nil }
+      it { expect(company.phone).to be_nil }
       it { expect(company.website).to eq("http://centres.norauto.fr/110-norauto-leers?utm_source=google\u0026utm_medium=places\u0026utm_campaign=Norauto_20121219JC") }
+      it { expect(company.location).to eq(Firmapi::Location.new(latitude: 50.68216, longitude: 3.22235)) }
 
       context 'financial_activity' do
 

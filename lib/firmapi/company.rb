@@ -17,7 +17,9 @@ module Firmapi
   	attribute :registration_date, Date
   	attribute :cessation_date, Date
   	attribute :website, String
+    attribute :phone, String
     attribute :financial_activity, Array[FinancialYear]
+    attribute :location, Location
 
   	def self.find_by_siren!(siren)
 

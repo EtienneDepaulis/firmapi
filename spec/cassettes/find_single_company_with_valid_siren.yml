@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - nginx/1.4.1 (Ubuntu)
       Date:
-      - Fri, 06 Jun 2014 12:43:33 GMT
+      - Tue, 17 Jun 2014 11:08:31 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -35,20 +35,20 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       Etag:
-      - '"ef8fa7287179f2c5bbd81ec627358a0b"'
+      - '"48143e943be730c99c2ba89ef0102582"'
       Cache-Control:
       - max-age=0, private, must-revalidate
       Set-Cookie:
       - request_method=GET; path=/
       X-Request-Id:
-      - d77bcb08-828e-4f56-8dbb-eb5fc2644a5d
+      - 129f2874-0900-41cb-a4a6-9283e3648b69
       X-Runtime:
-      - '0.042333'
+      - '0.055562'
     body:
       encoding: UTF-8
       string: '{"input":{"siren":"480470152"},"result":{"siren":"480470152","name":"Norauto
         France","nic":"00012","commercial_name":null,"official_name":"NORAUTO FRANCE","naf_code":"4532Z","legal_form":"SAS","address":"511
-        589 R Des Seringats","postal_code":"59262","city":"Sainghin En Melantois","vat_number":"FR71480470152","number_of_establishments":230,"registration_date":"2005-01-20","cessation_date":null,"website":"http://centres.norauto.fr/110-norauto-leers?utm_source=google\u0026utm_medium=places\u0026utm_campaign=Norauto_20121219JC","financial_activity":[{"publication_year":2012,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2012-09-29"},{"publication_year":2011,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2011-09-29"},{"publication_year":2010,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2010-09-29"},{"publication_year":2009,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2009-09-29"}]}}'
+        589 R Des Seringats","postal_code":"59262","city":"Sainghin En Melantois","vat_number":"FR71480470152","number_of_establishments":230,"registration_date":"2005-01-20","cessation_date":null,"website":"http://centres.norauto.fr/110-norauto-leers?utm_source=google\u0026utm_medium=places\u0026utm_campaign=Norauto_20121219JC","location":{"latitude":"50.68216","longitude":"3.22235"},"financial_activity":[{"publication_year":2012,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2012-09-29"},{"publication_year":2011,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2011-09-29"},{"publication_year":2010,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2010-09-29"},{"publication_year":2009,"turnover":null,"income":null,"workforce_count":null,"publication_date":"2009-09-29"}]}}'
     http_version:
-  recorded_at: Fri, 06 Jun 2014 12:43:33 GMT
+  recorded_at: Tue, 17 Jun 2014 11:08:32 GMT
 recorded_with: VCR 2.9.2
